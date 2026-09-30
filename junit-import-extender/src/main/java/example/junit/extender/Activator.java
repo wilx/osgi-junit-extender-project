@@ -18,8 +18,6 @@ public final class Activator implements BundleActivator {
       return;
     JUnitWeavingHook hook = new JUnitWeavingHook(context.getBundle(),
         context.getBundle().adapt(BundleRevision.class).getDeclaredCapabilities("junit"), policy);
-    // Prepare parser and helper classes before the service can receive reentrant callbacks.
-    policy.prepare();
     Hashtable<String, Object> properties = new Hashtable<>();
     properties.put("example.junit.extender", Boolean.TRUE);
     registration = context.registerService(WeavingHook.class, hook, properties);

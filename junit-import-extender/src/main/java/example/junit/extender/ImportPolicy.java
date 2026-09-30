@@ -100,10 +100,6 @@ final class ImportPolicy {
     return result;
   }
 
-  void prepare() {
-    new HashSet<String>();
-    FilterKey.of("(&(x=y)(!(z=q)))");
-  }
   int size() {
     return clauses.size();
   }

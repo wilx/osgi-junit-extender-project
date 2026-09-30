@@ -87,7 +87,7 @@ Dynamic resolution chooses compatible exporters according to the framework's res
 
 ## Callback, bootstrap, and concurrency contract
 
-The hook's callback excludes its own bundle, reads host and attached-fragment declarations, and appends missing clauses to `WovenClass.getDynamicImports()`. It does not transform bytecode, load consumer/JUnit classes, log, resolve, start, refresh, or wait on locks. Helpers and configuration are initialized before registration. Unexpected exceptions are allowed to reach the framework; they are not swallowed.
+The hook's callback excludes its own bundle, reads host and attached-fragment declarations, and appends missing clauses to `WovenClass.getDynamicImports()`. It does not transform bytecode, load consumer/JUnit classes, log, resolve, start, refresh, or wait on locks. Configuration parsing computes the filter keys before hook registration, initializing `FilterKey` and its parser nodes as part of that necessary work. Unexpected exceptions are allowed to reach the framework; they are not swallowed.
 
 Committed dynamic requirements are compared by normalized generated LDAP filters. No processed flag is set before the framework commits additions. The installed manifest remains unchanged. Additions affect the host's runtime package visibility, including production classes and other fragments; there is no per-fragment import isolation.
 
