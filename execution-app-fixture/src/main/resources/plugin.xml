@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin><extension id="tests" point="org.eclipse.core.runtime.applications"><application thread="any" cardinality="*"><run class="example.junit.execution.TestApplication"/></application></extension></plugin>

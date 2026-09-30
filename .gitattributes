@@ -1,0 +1,5 @@
+* text=auto
+/mvnw text eol=lf
+/mvnw.cmd text eol=crlf
+# Preserve raw Maven output, including its trailing spaces.
+/verification/**/*.log -whitespace

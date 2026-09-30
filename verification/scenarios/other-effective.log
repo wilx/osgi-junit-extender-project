@@ -1,0 +1,2 @@
+APPLICATION {status=error, errorType=java.lang.IllegalStateException, error=No active junit declaration matches a ready extender, tcclRestored=true}
+SCENARIO PASSED other-effective

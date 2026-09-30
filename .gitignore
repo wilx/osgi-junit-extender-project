@@ -1,0 +1,6 @@
+.tools/
+.m2/
+**/target/
+.idea/
+*.iml
+verification/development/

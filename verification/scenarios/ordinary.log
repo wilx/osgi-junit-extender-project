@@ -1,0 +1,2 @@
+APPLICATION {tests=2, failures=0, status=passed, messages=[], hostId=7, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+SCENARIO PASSED ordinary

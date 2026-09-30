@@ -1,0 +1,6 @@
+Late attachment retained host wiring and class loader.
+APPLICATION {tests=1, failures=1, status=failed, messages=[expectedFailure(fixtures.tests.IntentionalFailure): intentional failure sentinel], listenerCount=1, hostId=7, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+APPLICATION {status=error, errorType=java.lang.ClassNotFoundException, error=fixtures.tests.DoesNotExist cannot be found by example.fixture.production_1.0.0, tcclRestored=true}
+APPLICATION {tests=1, failures=0, status=passed, messages=[], listenerCount=1, hostId=7, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+APPLICATION {tests=4, failures=0, status=passed, messages=[], listenerCount=4, hostId=7, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+SCENARIO PASSED failures

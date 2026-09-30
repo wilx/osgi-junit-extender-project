@@ -1,0 +1,4 @@
+APPLICATION {status=error, errorType=java.lang.IllegalStateException, error=No active junit declaration matches a ready extender, tcclRestored=true}
+APPLICATION {tests=2, failures=0, status=passed, messages=[], hostId=9, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+APPLICATION {tests=2, failures=0, status=passed, messages=[], hostId=10, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+SCENARIO PASSED filters

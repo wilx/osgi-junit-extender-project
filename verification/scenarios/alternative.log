@@ -1,0 +1,3 @@
+APPLICATION {tests=4, failures=0, status=passed, messages=[], listenerCount=4, hostId=8, dynamicRequirements=35, junitBundle=example.provider.junit, tcclRestored=true}
+Verified all 35 package exporters and dynamic wires.
+SCENARIO PASSED alternative

@@ -1,0 +1,4 @@
+Late attachment retained host wiring and class loader.
+APPLICATION {tests=4, failures=0, status=passed, messages=[], listenerCount=4, hostId=7, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+Verified all 35 package exporters and dynamic wires.
+SCENARIO PASSED late

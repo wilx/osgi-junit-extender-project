@@ -1,0 +1,3 @@
+Late attachment retained host wiring and class loader.
+APPLICATION {status=error, errorType=java.lang.ClassNotFoundException, error=org.junit.runner.JUnitCore cannot be found by example.fixture.production_1.0.0, tcclRestored=true}
+SCENARIO PASSED missing-provider

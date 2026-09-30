@@ -1,0 +1,6 @@
+Late attachment retained host wiring and class loader.
+APPLICATION {status=error, errorType=java.lang.IllegalStateException, error=Bootstrap did not establish dynamic imports, tcclRestored=true}
+APPLICATION {tests=4, failures=0, status=passed, messages=[], listenerCount=4, hostId=7, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+APPLICATION {tests=4, failures=0, status=passed, messages=[], listenerCount=4, hostId=7, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+APPLICATION {tests=4, failures=0, status=passed, messages=[], listenerCount=4, hostId=7, dynamicRequirements=35, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+SCENARIO PASSED restart

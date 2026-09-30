@@ -1,0 +1,3 @@
+Late attachment retained host wiring and class loader.
+APPLICATION {status=error, errorType=java.lang.IllegalStateException, error=JUnit weaving hook is not registered, tcclRestored=true}
+SCENARIO PASSED absent-extender

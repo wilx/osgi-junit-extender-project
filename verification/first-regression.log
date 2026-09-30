@@ -1,0 +1,380 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] osgi-junit-extender-parent                                         [pom]
+[INFO] junit-import-extender                                              [jar]
+[INFO] fixture-production                                                 [jar]
+[INFO] fixture-tests-fragment                                             [jar]
+[INFO] fixture-ordinary-tests                                             [jar]
+[INFO] execution-app-fixture                                              [jar]
+[INFO] alternative-junit-provider                                         [jar]
+[INFO] alternative-hamcrest-provider                                      [jar]
+[INFO] it-harness                                                         [jar]
+[INFO] 
+[INFO] --------------< example.junit:osgi-junit-extender-parent >--------------
+[INFO] Building osgi-junit-extender-parent 1.0.0-SNAPSHOT                 [1/9]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ osgi-junit-extender-parent ---
+[INFO] 
+[INFO] ----------------< example.junit:junit-import-extender >-----------------
+[INFO] Building junit-import-extender 1.0.0-SNAPSHOT                      [2/9]
+[INFO]   from junit-import-extender/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ junit-import-extender ---
+[INFO] Deleting /home/wilx/osgi-junit-extender-project/junit-import-extender/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ junit-import-extender ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/junit-import-extender/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ junit-import-extender ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- bundle:6.0.0:manifest (manifest) @ junit-import-extender ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[INFO] Writing manifest: /home/wilx/osgi-junit-extender-project/junit-import-extender/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ junit-import-extender ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/junit-import-extender/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ junit-import-extender ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ junit-import-extender ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ junit-import-extender ---
+[INFO] Building jar: /home/wilx/osgi-junit-extender-project/junit-import-extender/target/junit-import-extender-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< example.junit:fixture-production >------------------
+[INFO] Building fixture-production 1.0.0-SNAPSHOT                         [3/9]
+[INFO]   from fixture-production/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ fixture-production ---
+[INFO] Deleting /home/wilx/osgi-junit-extender-project/fixture-production/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ fixture-production ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/fixture-production/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ fixture-production ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- bundle:6.0.0:manifest (manifest) @ fixture-production ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[INFO] Writing manifest: /home/wilx/osgi-junit-extender-project/fixture-production/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ fixture-production ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/fixture-production/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ fixture-production ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ fixture-production ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ fixture-production ---
+[INFO] Building jar: /home/wilx/osgi-junit-extender-project/fixture-production/target/fixture-production-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------< example.junit:fixture-tests-fragment >----------------
+[INFO] Building fixture-tests-fragment 1.0.0-SNAPSHOT                     [4/9]
+[INFO]   from fixture-tests-fragment/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ fixture-tests-fragment ---
+[INFO] Deleting /home/wilx/osgi-junit-extender-project/fixture-tests-fragment/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ fixture-tests-fragment ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/fixture-tests-fragment/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ fixture-tests-fragment ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 72 source files with javac [debug release 17] to target/classes
+[INFO] /home/wilx/osgi-junit-extender-project/fixture-tests-fragment/src/main/java/fixtures/production/ProductionTest.java: /home/wilx/osgi-junit-extender-project/fixture-tests-fragment/src/main/java/fixtures/production/ProductionTest.java uses or overrides a deprecated API.
+[INFO] /home/wilx/osgi-junit-extender-project/fixture-tests-fragment/src/main/java/fixtures/production/ProductionTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- bundle:6.0.0:manifest (manifest) @ fixture-tests-fragment ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[INFO] Writing manifest: /home/wilx/osgi-junit-extender-project/fixture-tests-fragment/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ fixture-tests-fragment ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/fixture-tests-fragment/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ fixture-tests-fragment ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ fixture-tests-fragment ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ fixture-tests-fragment ---
+[INFO] Building jar: /home/wilx/osgi-junit-extender-project/fixture-tests-fragment/target/fixture-tests-fragment-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------< example.junit:fixture-ordinary-tests >----------------
+[INFO] Building fixture-ordinary-tests 1.0.0-SNAPSHOT                     [5/9]
+[INFO]   from fixture-ordinary-tests/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ fixture-ordinary-tests ---
+[INFO] Deleting /home/wilx/osgi-junit-extender-project/fixture-ordinary-tests/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ fixture-ordinary-tests ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/fixture-ordinary-tests/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ fixture-ordinary-tests ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- bundle:6.0.0:manifest (manifest) @ fixture-ordinary-tests ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[INFO] Writing manifest: /home/wilx/osgi-junit-extender-project/fixture-ordinary-tests/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ fixture-ordinary-tests ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/fixture-ordinary-tests/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ fixture-ordinary-tests ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ fixture-ordinary-tests ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ fixture-ordinary-tests ---
+[INFO] Building jar: /home/wilx/osgi-junit-extender-project/fixture-ordinary-tests/target/fixture-ordinary-tests-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------< example.junit:execution-app-fixture >-----------------
+[INFO] Building execution-app-fixture 1.0.0-SNAPSHOT                      [6/9]
+[INFO]   from execution-app-fixture/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ execution-app-fixture ---
+[INFO] Deleting /home/wilx/osgi-junit-extender-project/execution-app-fixture/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ execution-app-fixture ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ execution-app-fixture ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- bundle:6.0.0:manifest (manifest) @ execution-app-fixture ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[INFO] Writing manifest: /home/wilx/osgi-junit-extender-project/execution-app-fixture/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ execution-app-fixture ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/execution-app-fixture/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ execution-app-fixture ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ execution-app-fixture ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ execution-app-fixture ---
+[INFO] Building jar: /home/wilx/osgi-junit-extender-project/execution-app-fixture/target/execution-app-fixture-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------< example.junit:alternative-junit-provider >--------------
+[INFO] Building alternative-junit-provider 1.0.0-SNAPSHOT                 [7/9]
+[INFO]   from alternative-junit-provider/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ alternative-junit-provider ---
+[INFO] Deleting /home/wilx/osgi-junit-extender-project/alternative-junit-provider/target
+[INFO] 
+[INFO] --- dependency:3.8.1:unpack (provider-content) @ alternative-junit-provider ---
+[INFO] Configured Artifact: junit:junit:4.13.2:jar
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ alternative-junit-provider ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/alternative-junit-provider/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ alternative-junit-provider ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- bundle:6.0.0:manifest (manifest) @ alternative-junit-provider ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[INFO] Writing manifest: /home/wilx/osgi-junit-extender-project/alternative-junit-provider/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ alternative-junit-provider ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/alternative-junit-provider/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ alternative-junit-provider ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ alternative-junit-provider ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ alternative-junit-provider ---
+[INFO] Building jar: /home/wilx/osgi-junit-extender-project/alternative-junit-provider/target/alternative-junit-provider-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------< example.junit:alternative-hamcrest-provider >-------------
+[INFO] Building alternative-hamcrest-provider 1.0.0-SNAPSHOT              [8/9]
+[INFO]   from alternative-hamcrest-provider/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ alternative-hamcrest-provider ---
+[INFO] Deleting /home/wilx/osgi-junit-extender-project/alternative-hamcrest-provider/target
+[INFO] 
+[INFO] --- dependency:3.8.1:unpack (provider-content) @ alternative-hamcrest-provider ---
+[INFO] Configured Artifact: org.hamcrest:hamcrest-core:1.3:jar
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ alternative-hamcrest-provider ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/alternative-hamcrest-provider/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ alternative-hamcrest-provider ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- bundle:6.0.0:manifest (manifest) @ alternative-hamcrest-provider ---
+[INFO] No MANIFEST.MF file found, generating manifest.
+[INFO] Writing manifest: /home/wilx/osgi-junit-extender-project/alternative-hamcrest-provider/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ alternative-hamcrest-provider ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/alternative-hamcrest-provider/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ alternative-hamcrest-provider ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ alternative-hamcrest-provider ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ alternative-hamcrest-provider ---
+[INFO] Building jar: /home/wilx/osgi-junit-extender-project/alternative-hamcrest-provider/target/alternative-hamcrest-provider-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------------< example.junit:it-harness >----------------------
+[INFO] Building it-harness 1.0.0-SNAPSHOT                                 [9/9]
+[INFO]   from it-harness/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ it-harness ---
+[INFO] Deleting /home/wilx/osgi-junit-extender-project/it-harness/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ it-harness ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ it-harness ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ it-harness ---
+[INFO] skip non existing resourceDirectory /home/wilx/osgi-junit-extender-project/it-harness/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ it-harness ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ it-harness ---
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ it-harness ---
+[INFO] Building jar: /home/wilx/osgi-junit-extender-project/it-harness/target/it-harness-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- dependency:3.8.1:copy (stage-bundles) @ it-harness ---
+[INFO] Configured Artifact: example.junit:junit-import-extender:1.0.0-SNAPSHOT:jar
+[INFO] Configured Artifact: example.junit:fixture-production:1.0.0-SNAPSHOT:jar
+[INFO] Configured Artifact: example.junit:fixture-tests-fragment:1.0.0-SNAPSHOT:jar
+[INFO] Configured Artifact: example.junit:fixture-ordinary-tests:1.0.0-SNAPSHOT:jar
+[INFO] Configured Artifact: example.junit:execution-app-fixture:1.0.0-SNAPSHOT:jar
+[INFO] Configured Artifact: example.junit:alternative-junit-provider:1.0.0-SNAPSHOT:jar
+[INFO] Configured Artifact: example.junit:alternative-hamcrest-provider:1.0.0-SNAPSHOT:jar
+[INFO] Configured Artifact: org.eclipse.platform:org.eclipse.osgi:3.24.300:jar
+[INFO] Configured Artifact: org.eclipse.platform:org.eclipse.equinox.app:1.7.600:jar
+[INFO] Configured Artifact: org.eclipse.platform:org.eclipse.equinox.registry:3.12.600:jar
+[INFO] Configured Artifact: org.eclipse.platform:org.eclipse.equinox.common:3.20.300:jar
+[INFO] Configured Artifact: org.apache.servicemix.bundles:org.apache.servicemix.bundles.junit:4.13.2_1:jar
+[INFO] 
+[INFO] --- failsafe:3.5.4:integration-test (default) @ it-harness ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[WARNING] System property [it.scenarios] overwritten by user properties from Maven session
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running example.junit.it.EquinoxIT
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.566 s <<< FAILURE! -- in example.junit.it.EquinoxIT
+[ERROR] example.junit.it.EquinoxIT.scenarios()[1] -- Time elapsed: 0.537 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+Scenario late failed; /home/wilx/osgi-junit-extender-project/it-harness/target/case-late-10397894864209926195/child.log
+Late attachment retained host wiring and class loader.
+APPLICATION {status=error, errorType=java.lang.IllegalStateException, error=JUnit weaving hook is not registered, tcclRestored=true}
+java.lang.AssertionError: Execution failed: {status=error, errorType=java.lang.IllegalStateException, error=JUnit weaving hook is not registered, tcclRestored=true}
+	at example.junit.it.ScenarioMain.check(ScenarioMain.java:317)
+	at example.junit.it.ScenarioMain.success(ScenarioMain.java:282)
+	at example.junit.it.ScenarioMain.scenario(ScenarioMain.java:103)
+	at example.junit.it.ScenarioMain.main(ScenarioMain.java:32)
+Exception in thread "main" java.lang.AssertionError: Scenario failed
+	at example.junit.it.ScenarioMain.main(ScenarioMain.java:43)
+Caused by: java.lang.AssertionError: Execution failed: {status=error, errorType=java.lang.IllegalStateException, error=JUnit weaving hook is not registered, tcclRestored=true}
+	at example.junit.it.ScenarioMain.check(ScenarioMain.java:317)
+	at example.junit.it.ScenarioMain.success(ScenarioMain.java:282)
+	at example.junit.it.ScenarioMain.scenario(ScenarioMain.java:103)
+	at example.junit.it.ScenarioMain.main(ScenarioMain.java:32)
+ ==> expected: <0> but was: <1>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:156)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:598)
+	at example.junit.it.EquinoxIT.runChild(EquinoxIT.java:34)
+	at example.junit.it.EquinoxIT.lambda$scenarios$1(EquinoxIT.java:21)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   EquinoxIT.lambda$scenarios$1:21->runChild:34 Scenario late failed; /home/wilx/osgi-junit-extender-project/it-harness/target/case-late-10397894864209926195/child.log
+Late attachment retained host wiring and class loader.
+APPLICATION {status=error, errorType=java.lang.IllegalStateException, error=JUnit weaving hook is not registered, tcclRestored=true}
+java.lang.AssertionError: Execution failed: {status=error, errorType=java.lang.IllegalStateException, error=JUnit weaving hook is not registered, tcclRestored=true}
+	at example.junit.it.ScenarioMain.check(ScenarioMain.java:317)
+	at example.junit.it.ScenarioMain.success(ScenarioMain.java:282)
+	at example.junit.it.ScenarioMain.scenario(ScenarioMain.java:103)
+	at example.junit.it.ScenarioMain.main(ScenarioMain.java:32)
+Exception in thread "main" java.lang.AssertionError: Scenario failed
+	at example.junit.it.ScenarioMain.main(ScenarioMain.java:43)
+Caused by: java.lang.AssertionError: Execution failed: {status=error, errorType=java.lang.IllegalStateException, error=JUnit weaving hook is not registered, tcclRestored=true}
+	at example.junit.it.ScenarioMain.check(ScenarioMain.java:317)
+	at example.junit.it.ScenarioMain.success(ScenarioMain.java:282)
+	at example.junit.it.ScenarioMain.scenario(ScenarioMain.java:103)
+	at example.junit.it.ScenarioMain.main(ScenarioMain.java:32)
+ ==> expected: <0> but was: <1>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- failsafe:3.5.4:verify (default) @ it-harness ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for osgi-junit-extender-parent 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] osgi-junit-extender-parent ......................... SUCCESS [  0.449 s]
+[INFO] junit-import-extender .............................. SUCCESS [  1.148 s]
+[INFO] fixture-production ................................. SUCCESS [  0.109 s]
+[INFO] fixture-tests-fragment ............................. SUCCESS [  0.285 s]
+[INFO] fixture-ordinary-tests ............................. SUCCESS [  0.088 s]
+[INFO] execution-app-fixture .............................. SUCCESS [  0.205 s]
+[INFO] alternative-junit-provider ......................... SUCCESS [  0.610 s]
+[INFO] alternative-hamcrest-provider ...................... SUCCESS [  0.081 s]
+[INFO] it-harness ......................................... FAILURE [  1.272 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.322 s
+[INFO] Finished at: 2026-09-30T00:57:25+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-failsafe-plugin:3.5.4:verify (default) on project it-harness: There are test failures.
+[ERROR] 
+[ERROR] See /home/wilx/osgi-junit-extender-project/it-harness/target/failsafe-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :it-harness

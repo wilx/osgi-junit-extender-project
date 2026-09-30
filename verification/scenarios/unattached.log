@@ -1,0 +1,2 @@
+APPLICATION {status=error, errorType=java.lang.IllegalStateException, error=Fragment has no actual selected host wire, tcclRestored=true}
+SCENARIO PASSED unattached

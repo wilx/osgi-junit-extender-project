@@ -1,0 +1,4 @@
+Late attachment retained host wiring and class loader.
+Unprepared first-definition race: 560 raw requirements; 35 distinct clauses. Controlled bootstrap is required for exact deduplication.
+APPLICATION {tests=4, failures=0, status=passed, messages=[], listenerCount=4, hostId=7, dynamicRequirements=560, junitBundle=org.apache.servicemix.bundles.junit, tcclRestored=true}
+SCENARIO PASSED first-race
